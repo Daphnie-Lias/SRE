@@ -8,7 +8,7 @@ terraform {
 
  provider "aws" {
    region = "us-east-2"
-   profile = "udacity_admin"
+   profile = "udacitylab"
    
    default_tags {
      tags = local.tags
@@ -17,7 +17,7 @@ terraform {
 
  provider "aws" {
   alias  = "usw1"
-   profile = "udacity_admin"
+   profile = "udacitylab"
    region = "us-west-1"
 
 }
