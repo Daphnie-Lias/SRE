@@ -25,7 +25,7 @@ locals {
  }
 
   module "vpc_west" {
-   source     = "./modules/vpc"
+   source     = "../../starter-code/zone2/modules/vpc"
    cidr_block = "10.100.0.0/16"
 
    account_owner = local.name

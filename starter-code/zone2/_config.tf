@@ -8,7 +8,7 @@ terraform {
 
  provider "aws" {
    region = "us-west-1"
-   profile = "udacitylaab"
+   profile = "udacity_admin"
    
    default_tags {
      tags = local.tags
